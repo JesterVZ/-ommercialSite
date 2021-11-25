@@ -1,0 +1,118 @@
+button {
+  cursor: pointer;
+}
+
+.container {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body {
+  font-family: "Play", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #181a1b;
+}
+
+.header {
+  width: 100%;
+  color: #b7b7b7;
+}
+.header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: unset;
+}
+.header ul li {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.main-button {
+  width: 140px;
+  height: 49px;
+  background: transparent;
+  border: none;
+  color: #fff;
+  border: 1px solid #FFF;
+}
+.main-button:hover {
+  background: #FFF;
+  color: #000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.about {
+  position: relative;
+}
+.about__prices {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 590px;
+  margin-top: 20px;
+}
+.about__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  font-size: 55px;
+}
+.about__title img {
+  max-width: 600px;
+}
+.about__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+.about__item img {
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+}
+.about__buttons {
+  margin-top: 20px;
+}
+.about__content {
+  position: absolute;
+  top: 173px;
+}
+
+.calculate-button {
+  width: 204px;
+  margin-right: 20px;
+}
